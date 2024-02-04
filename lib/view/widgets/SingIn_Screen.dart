@@ -28,7 +28,7 @@ class SingInScreen extends StatelessWidget {
                   top: Radius.circular(45),
                 ),
               ),
-              child: const Column(
+              child: Column(
                 children: [
                   CustomTextField(
                     icon: Icons.email,
