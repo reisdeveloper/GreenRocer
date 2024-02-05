@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:greengrocer/view/widgets/SingIn_Screen.dart';
+import 'package:greengrocer/view/widgets/singIn_Screen.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
