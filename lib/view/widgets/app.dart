@@ -11,6 +11,7 @@ class App extends StatelessWidget {
       home: SingInScreen(),
       theme: ThemeData(
         primarySwatch: Colors.green,
+        scaffoldBackgroundColor: Colors.white.withAlpha(190),
       ),
     );
   }
