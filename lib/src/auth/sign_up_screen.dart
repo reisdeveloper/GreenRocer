@@ -50,16 +50,16 @@ class SignUpScreen extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
-                          CustomTextField(
+                          const CustomTextField(
                             icon: Icons.email,
                             label: 'Email',
                           ),
-                          CustomTextField(
+                          const CustomTextField(
                             icon: Icons.lock,
                             label: 'Senha',
                             isSecret: true,
                           ),
-                          CustomTextField(
+                          const CustomTextField(
                             icon: Icons.person,
                             label: 'Nome',
                           ),

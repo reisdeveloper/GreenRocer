@@ -2,6 +2,7 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:greengrocer/src/auth/components/custom_text_field.dart';
 import 'package:greengrocer/src/auth/sign_up_screen.dart';
+import 'package:greengrocer/src/base/base_screen.dart';
 import 'package:greengrocer/src/config/custom_colors.dart';
 
 class SingInScreen extends StatelessWidget {
@@ -97,7 +98,13 @@ class SingInScreen extends StatelessWidget {
                           backgroundColor: CustomColors.customSwatchColor,
                           foregroundColor: CustomColors.white,
                         ),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.of(context).pushReplacement(
+                            MaterialPageRoute(
+                              builder: (_) => const BaseScreen(),
+                            ),
+                          );
+                        },
                         child: const Text(
                           'Entrar',
                           style: TextStyle(fontSize: 18),
